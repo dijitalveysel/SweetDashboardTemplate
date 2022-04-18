@@ -1,0 +1,42 @@
+%!Adobe-FontList 1.22
+%Locale:0x41f
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AveFedanPERSONALUSEONLY
+FamilyName:Ave Fedan PERSONAL USE ONLY
+StyleName:Regular
+FullName:Ave Fedan PERSONAL USE ONLY
+MenuName:Ave Fedan PERSONAL USE ONLY
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\github\sweet-dashboard-template\design\logo\Font\AveFedan_PERSONAL_USE.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:154668
+FileModTime:1455320924
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Ave Fedan PERSONAL USE ONLY
+NameArray:0,Mac,4,Ave Fedan PERSONAL USE ONLY
+NameArray:0,Win,1,Ave Fedan PERSONAL USE ONLY
+NameArray:0,Win,16,Ave Fedan PERSONAL USE ONLY
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\github\sweet-dashboard-template\design\logo\Font\License - READ THIS.txt
+FileModTime:1455534423
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\github\sweet-dashboard-template\design\logo\Font\ave-family_flag.png
+FileModTime:1455534241
+%EndFont
+
