@@ -1,8 +1,11 @@
 import { Counter } from "./libs/counter-animation/counter.js";
+import { VanillaTilt } from "./libs/vanilla-tilt/vanilla-tilt.js";
+import { TiltConfig } from "./constants/tilt-config.js";
 
 /**
  * Get Elements
  */
+const cards = document.querySelectorAll(".card");
 const numbers = document.querySelectorAll(".card>.card-information>.number");
 const toggleElement = document.querySelector("#toggle");
 let sidebarElement = document.querySelector("#sidebar");
@@ -25,3 +28,8 @@ toggleElement.addEventListener("click", menuToggle);
  * Counter Init Function
  */
 Counter.init(numbers, 10);
+
+/**
+ * VanillaTilt Init Function
+ */
+VanillaTilt.init(cards, TiltConfig);
