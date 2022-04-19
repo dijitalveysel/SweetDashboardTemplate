@@ -1,0 +1,43 @@
+@import url("./_variables.css");
+
+.card-grid {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: var(--gap-lg);
+  margin: var(--gap-y-lg);
+}
+
+.card {
+  position: relative;
+  background-color: var(--white-color);
+  color: var(--dark-color);
+  padding: var(--gap-md);
+  border-radius: var(--rounded-md);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow-sm);
+  cursor: pointer;
+}
+
+.card > .card-information {
+  position: relative;
+  text-align: left;
+}
+
+.card > .card-information > .number {
+  font-weight: 700;
+  font-size: 24px;
+  opacity: 0.8;
+}
+
+.card > .card-information > .title {
+  font-size: 16px;
+}
+
+.card > .icon {
+  font-size: 40px;
+  opacity: 0.8;
+}
