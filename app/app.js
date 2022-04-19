@@ -6,10 +6,11 @@ import { TiltConfig } from "./constants/tilt-config.js";
  * Get Elements
  */
 const toggleElement = document.querySelector("#toggle");
-let sidebarElement = document.querySelector("#sidebar");
-let pageBodyElement = document.querySelector("#pageBody");
+const sidebarElement = document.querySelector("#sidebar");
+const pageBodyElement = document.querySelector("#pageBody");
 const cards = pageBodyElement.querySelectorAll(".card");
 const numbers = document.querySelectorAll(".card>.card-information>.number");
+const loader = document.querySelector("#loader");
 
 /**
  * Build Out Functions
@@ -17,6 +18,12 @@ const numbers = document.querySelectorAll(".card>.card-information>.number");
 function menuToggle() {
   sidebarElement.classList.toggle("active");
   pageBodyElement.classList.toggle("active");
+}
+
+function showLoader(duration) {
+  setTimeout(() => {
+    loader.style.display = "none";
+  }, duration);
 }
 
 /**
@@ -33,3 +40,8 @@ Counter.init(numbers, 10);
  * VanillaTilt Init Function
  */
 VanillaTilt.init(cards, TiltConfig);
+
+/**
+ * Loader Showing Duration
+ */
+showLoader(2000);
