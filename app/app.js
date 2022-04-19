@@ -5,11 +5,11 @@ import { TiltConfig } from "./constants/tilt-config.js";
 /**
  * Get Elements
  */
-const cards = document.querySelectorAll(".card");
-const numbers = document.querySelectorAll(".card>.card-information>.number");
 const toggleElement = document.querySelector("#toggle");
 let sidebarElement = document.querySelector("#sidebar");
 let pageBodyElement = document.querySelector("#pageBody");
+const cards = pageBodyElement.querySelectorAll(".card");
+const numbers = document.querySelectorAll(".card>.card-information>.number");
 
 /**
  * Build Out Functions
