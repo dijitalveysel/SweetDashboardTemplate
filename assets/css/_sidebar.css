@@ -1,0 +1,45 @@
+@import url("_variables.css");
+
+#sidebar {
+  position: fixed;
+  top: var(--header-height);
+  left: 0;
+  height: calc(100vh - var(--header-height));
+  width: var(--sidebar-width);
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--white-color);
+  box-shadow: var(--shadow-md);
+  z-index: 9;
+}
+
+#sidebar.active {
+  left: calc(var(--sidebar-width) * -1);
+}
+
+#sidebar > ul {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0;
+}
+
+#sidebar > ul > a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#sidebar > ul > a > li {
+  position: relative;
+  list-style: none;
+  margin: 0.8rem 0;
+  padding: 0.8rem 0 0.8rem 1rem;
+  color: var(--primary-color);
+}
+
+#sidebar > ul > a:hover > li {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+}

@@ -1,0 +1,16 @@
+@import url('_variables.css');
+
+#pageBody {
+    margin: var(--header-height) 0 0 var(--sidebar-width);
+    height: calc(100vh - var(--header-height));
+    background-color: var(--light-color);
+    overflow-y: auto;
+}
+
+#pageBody.active {
+    margin-left: 0;
+}
+
+.page-container {
+    margin: var(--gap-lg);
+}
