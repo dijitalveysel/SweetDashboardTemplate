@@ -1,1 +1,1 @@
-# Sweet Dashboard Template
+![https://sweetdashboard.veysel.co](https://raw.githubusercontent.com/dijitalveysel/SweetDashboardTemplate/ec1266933180f61e883344a34408597268e652ee/design/logo/export/SVG/logo-web-1.svg)
