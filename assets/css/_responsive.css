@@ -1,0 +1,36 @@
+@import url('./_variables.css');
+
+/* Media Query For Tablet */
+@media screen and (max-width: 768px) {
+    #sidebar {
+        left: calc(var(--sidebar-width) * -1);
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    #pageBody {
+        margin-left: 0;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Media Query For Mobile */
+@media screen and (max-width: 425px) {
+    #sidebar {
+        width: 100vw;
+        left: -100%;
+    }
+
+    #sidebar.active {
+        left: 0;
+    }
+
+    .card-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
