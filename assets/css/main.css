@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url("./_normalize.css");
+@import url("./_variables.css");
+@import url("./_header.css");
+
+/* Universal */
+* {
+  font-family: var(--montserrat-font);
+  transition: all 1s;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: var(--scrollbar-size);
+  height: var(--scrollbar-size);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: var(--scrollbar-shadow);
+}
+
+/* Custom Selection */
+::selection {
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+/* Body Element */
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}

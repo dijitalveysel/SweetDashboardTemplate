@@ -1,0 +1,70 @@
+@import url("_variables.css");
+
+header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+  background-color: var(--white-color);
+  height: var(--header-height);
+  width: 100vw;
+  box-shadow: var(--shadow-md);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: var(--gap-x-md);
+  width: 100%;
+}
+
+#toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+#toggle span {
+  height: 2px;
+  border-radius: var(--rounded-sm);
+  margin-bottom: 6px;
+  background-color: var(--dark-color);
+  width: 20px;
+  transition: all 0.3s linear;
+}
+
+#toggle span:first-of-type {
+  width: 22px;
+}
+
+#toggle span:last-of-type {
+  width: 26px;
+}
+
+#toggle:hover span {
+  width: 26px;
+}
+
+.user {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.user > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.user:hover > img {
+  filter: hue-rotate(180deg);
+}
