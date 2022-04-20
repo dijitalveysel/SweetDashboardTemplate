@@ -1,5 +1,3 @@
-@import url("./_variables.css");
-
 .badge {
   color: var(--white-color);
   display: inline-block;

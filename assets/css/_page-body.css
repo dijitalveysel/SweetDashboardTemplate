@@ -1,5 +1,3 @@
-@import url("_variables.css");
-
 #pageBody {
   margin: var(--header-height) 0 0 var(--sidebar-width);
   height: calc(100vh - var(--header-height));

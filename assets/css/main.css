@@ -2,6 +2,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
 @import url("./_normalize.css");
 @import url("./_variables.css");
+@import url("./_animations.css");
 @import url("./_header.css");
 @import url("./_sidebar.css");
 @import url("./_page-body.css");

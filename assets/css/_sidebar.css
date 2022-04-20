@@ -1,5 +1,3 @@
-@import url("_variables.css");
-
 #sidebar {
   position: fixed;
   top: var(--header-height);

@@ -1,9 +1,7 @@
-@import url("./_variables.css");
-
 .table-container {
   position: relative;
   background-color: var(--white-color);
-  color: var(--dark-color);
+  color: var(--info-color);
   padding: var(--gap-md);
   border-radius: var(--rounded-md);
   box-shadow: var(--shadow-sm);
@@ -20,6 +18,7 @@ table {
 
 table > caption {
   font-size: var(--f-s-md);
+  font-weight: 600;
   margin: var(--gap-b-md);
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -38,6 +37,7 @@ table td {
 
 table th {
   font-size: var(--f-s-sm);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: 500;
 }
