@@ -1,5 +1,5 @@
-/* Media Query For Tablet Screens */
-@media screen and (max-width: 768px) {
+/* Media Query For Smaller Desktop Screens */
+@media screen and (max-width: 992px) {
   #sidebar {
     left: calc(var(--sidebar-width) * -1);
   }
@@ -15,10 +15,23 @@
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+/* Media Query For Tablet Screens */
+@media screen and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .logo {
+    width: 140px;
+  }
 
   table thead {
     position: absolute;
     clip: rect(0 0 0 0);
+    width: 0;
+    height: 0;
     overflow: hidden;
   }
 
@@ -57,14 +70,6 @@
 
   #sidebar.active {
     left: 0;
-  }
-
-  .card-grid {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .logo {
-    width: 140px;
   }
 }
 
