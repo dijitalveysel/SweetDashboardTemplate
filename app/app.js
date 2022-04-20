@@ -11,6 +11,7 @@ const pageBodyElement = document.querySelector("#pageBody");
 const cards = pageBodyElement.querySelectorAll(".card");
 const numbers = document.querySelectorAll(".card>.card-information>.number");
 const loader = document.querySelector("#loader");
+const tableBody = pageBodyElement.querySelector("table#sweetCandies tbody");
 
 /**
  * Build Out Functions

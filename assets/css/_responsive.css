@@ -17,6 +17,36 @@
   .card-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  table thead {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+  table tr {
+    border-bottom: 4px solid var(--light-color);
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  table td {
+    border-bottom: 1px solid var(--light-color);
+    display: block;
+    font-size: var(--f-s-xs);
+    text-align: right;
+  }
+
+  table td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  table td:last-child {
+    border-bottom: 0;
+  }
 }
 
 /* Media Query For Mobile Screens */

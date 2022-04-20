@@ -5,9 +5,11 @@
 @import url("./_header.css");
 @import url("./_sidebar.css");
 @import url("./_page-body.css");
-@import url("./_cards.css");
+@import url("./_card.css");
 @import url("./_helper.css");
 @import url("./_loader.css");
+@import url("./_table.css");
+@import url("./_badge.css");
 @import url("./_responsive.css");
 
 /* Universal */
@@ -41,4 +43,9 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
 }

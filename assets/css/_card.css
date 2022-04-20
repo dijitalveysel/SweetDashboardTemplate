@@ -29,15 +29,15 @@
 
 .card > .card-information > .number {
   font-weight: 700;
-  font-size: 24px;
+  font-size: var(--f-s-md);
   opacity: 0.8;
 }
 
 .card > .card-information > .title {
-  font-size: 16px;
+  font-size: var(--f-s-sm);
 }
 
 .card > .icon {
-  font-size: 40px;
+  font-size: var(--f-s-lg);
   opacity: 0.8;
 }

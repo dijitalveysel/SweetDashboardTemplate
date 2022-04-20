@@ -1,32 +1,37 @@
 :root {
-    /* Colors */
-    --primary-color: #d887a8;
-    --secondary-color: #7e5a7b;
-    --success-color: #9ec967;
-    --info-color: #493f60;
-    --warning-color: #FFE473;
-    --danger-color: #e870a6;
-    --light-color: #f8f3f7;
-    --dark-color: #10141b;
-    --white-color: #fff;
+  /* Colors */
+  --primary-color: #d887a8;
+  --secondary-color: #7e5a7b;
+  --success-color: #9ec967;
+  --info-color: #493f60;
+  --warning-color: #ffe473;
+  --danger-color: #e870a6;
+  --light-color: #f8f3f7;
+  --dark-color: #10141b;
+  --white-color: #fff;
 
-    /* Fonts */
-    --montserrat-font: 'Montserrat', sans-serif;
+  /* Fonts */
+  --montserrat-font: "Montserrat", sans-serif;
 
-    /* Shadows */
-    --shadow-sm: 0 0 10px rgba(0, 0, 0, 0.10);
-    --shadow-md: 0 0 10px rgba(0, 0, 0, 0.14);
-    --scrollbar-shadow: inset 0 0 6px #ccc;
+  /* Shadows */
+  --shadow-sm: 0 0 10px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 0 10px rgba(0, 0, 0, 0.14);
+  --scrollbar-shadow: inset 0 0 4px #ccc;
 
-    /* Sizes */
-    --header-height: 80px;
-    --sidebar-width: 240px;
-    --gap-md: 20px;
-    --gap-lg: 30px;
-    --gap-x-md: 0 20px;
-    --gap-y-lg: 30px 0;
-    --scrollbar-size: 8px;
-    --rounded-sm: 5px;
-    --rounded-md: 15px;
-    --rounded-pill: 10rem;
+  /* Sizes */
+  --header-height: 80px;
+  --sidebar-width: 240px;
+  --gap-md: 20px;
+  --gap-lg: 30px;
+  --gap-x-md: 0 20px;
+  --gap-b-md: 0 0 20px 0;
+  --gap-y-lg: 30px 0;
+  --scrollbar-size: 8px;
+  --rounded-sm: 5px;
+  --rounded-md: 15px;
+  --rounded-pill: 10rem;
+  --f-s-xs: 12.8px;
+  --f-s-sm: 16px;
+  --f-s-md: 24px;
+  --f-s-lg: 40px;
 }
