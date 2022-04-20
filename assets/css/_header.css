@@ -47,6 +47,21 @@ header {
   width: 26px;
 }
 
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-40%) translateX(-50%);
+  width: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.logo > img {
+  width: 100%;
+  height: 100%;
+}
+
 .user {
   position: relative;
   width: 60px;

@@ -1,6 +1,6 @@
 @import url("./_variables.css");
 
-/* Media Query For Tablet */
+/* Media Query For Tablet Screens */
 @media screen and (max-width: 768px) {
   #sidebar {
     left: calc(var(--sidebar-width) * -1);
@@ -19,7 +19,7 @@
   }
 }
 
-/* Media Query For Mobile */
+/* Media Query For Mobile Screens */
 @media screen and (max-width: 425px) {
   #sidebar {
     width: 100vw;
@@ -33,9 +33,13 @@
   .card-grid {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  .logo {
+    width: 140px;
+  }
 }
 
-/* Media Query For Vertical */
+/* Media Query For Vertical Screens */
 @media screen and (orientation: portrait) {
   .candy {
     width: 10vh;
