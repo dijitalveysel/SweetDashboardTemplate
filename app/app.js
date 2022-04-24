@@ -61,6 +61,6 @@ Counter.init(numberElems, 10);
 VanillaTilt.init(cardElems, TiltConfig);
 
 /**
- * loaderElem Showing Duration
+ * Loader Element Showing Duration
  */
 closeLoaderElem(2000);

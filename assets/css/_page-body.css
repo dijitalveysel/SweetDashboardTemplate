@@ -15,6 +15,6 @@
   margin: var(--gap-lg);
 }
 
-.container-item {
+.row {
   margin: var(--gap-y-lg);
 }
