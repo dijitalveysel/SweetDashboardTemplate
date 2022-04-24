@@ -4,7 +4,10 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: var(--gap-lg);
-  margin: var(--gap-y-lg);
+}
+
+.card-grid>.card {
+  cursor: pointer;
 }
 
 .card {
@@ -17,25 +20,24 @@
   justify-content: space-between;
   align-items: center;
   box-shadow: var(--shadow-sm);
-  cursor: pointer;
 }
 
-.card > .card-information {
+.card>.card-information {
   position: relative;
   text-align: left;
 }
 
-.card > .card-information > .number {
+.card>.card-information>.number {
   font-weight: 700;
   font-size: var(--f-s-md);
   opacity: 0.8;
 }
 
-.card > .card-information > .title {
+.card>.card-information>.title {
   font-size: var(--f-s-sm);
 }
 
-.card > .icon {
+.card>.icon {
   font-size: var(--f-s-lg);
   opacity: 0.8;
 }

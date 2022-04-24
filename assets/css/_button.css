@@ -1,0 +1,39 @@
+.btn-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.btn:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn {
+    font-size: var(--f-s-sm);
+    color: var(--white-color);
+    border-radius: var(--rounded-pill);
+    margin: var(--gap-sm);
+    padding: .375rem 1.75rem;
+    border: none;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-drag: none;
+    transition: box-shadow 0.2s;
+}
+
+.btn:hover:not(:disabled), .btn:focus {
+    box-shadow: var(--btn-focus-shadow);
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: none !important;
+}
+
+.btn:disabled {
+    opacity: 0.8;
+}

@@ -8,7 +8,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript" />
     <meta name="author" content="Veysel Demirel • Veysel In Digital World" />
     <meta name="description" content="Dashboard frame with a sweet look." />
-    <link rel="icon" type="image/svg+xml" href="./assets/images/candy.svg">
+    <link rel="icon" type="image/svg+xml" href="./assets/images/candy.svg" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <title>Sweet Dashboard</title>
 </head>
@@ -16,7 +16,7 @@
 <body>
     <div id="loader">
         <div class="candy">
-            <img src="./assets/images/candy.svg" alt="Candy Loader">
+            <img src="./assets/images/candy.svg" alt="Candy Loader" />
         </div>
     </div>
     <header>
@@ -27,7 +27,7 @@
                 <span></span>
             </div>
             <div class="logo">
-                <img src="./assets/images/logo.svg" alt="Sweet Logo">
+                <img src="./assets/images/logo.svg" alt="Sweet Logo" id="logo" />
             </div>
             <div class="user">
                 <img src="./assets/images/veysel-demirel.jpg" alt="Veysel Demirel" />
@@ -56,92 +56,118 @@
         </div>
         <div id="pageBody">
             <div class="page-container">
-                <div class="card-grid">
-                    <div class="card text-primary">
-                        <div class="card-information">
-                            <div class="number">812</div>
-                            <div class="title">Daily Views</div>
+                <div class="container-item">
+                    <div class="card-grid">
+                        <div class="card text-primary">
+                            <div class="card-information">
+                                <div class="number">812</div>
+                                <div class="title">Daily Views</div>
+                            </div>
+                            <div class="icon">
+                                <i class="bi bi-eye-fill"></i>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <i class="bi bi-eye-fill"></i>
+                        <div class="card text-secondary">
+                            <div class="card-information">
+                                <div class="number">546</div>
+                                <div class="title">Weekly Downloads</div>
+                            </div>
+                            <div class="icon">
+                                <i class="bi bi-cloud-arrow-down-fill"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card text-secondary">
-                        <div class="card-information">
-                            <div class="number">546</div>
-                            <div class="title">Weekly Downloads</div>
+                        <div class="card text-success">
+                            <div class="card-information">
+                                <div class="number">630</div>
+                                <div class="title">Total Visitor</div>
+                            </div>
+                            <div class="icon">
+                                <i class="bi bi-people-fill"></i>
+                            </div>
                         </div>
-                        <div class="icon">
-                            <i class="bi bi-cloud-arrow-down-fill"></i>
-                        </div>
-                    </div>
-                    <div class="card text-success">
-                        <div class="card-information">
-                            <div class="number">630</div>
-                            <div class="title">Total Visitor</div>
-                        </div>
-                        <div class="icon">
-                            <i class="bi bi-people-fill"></i>
-                        </div>
-                    </div>
-                    <div class="card text-danger">
-                        <div class="card-information">
-                            <div class="number">242</div>
-                            <div class="title">Monthly Like</div>
-                        </div>
-                        <div class="icon">
-                            <i class="bi bi-heart-fill"></i>
+                        <div class="card text-danger">
+                            <div class="card-information">
+                                <div class="number">242</div>
+                                <div class="title">Monthly Like</div>
+                            </div>
+                            <div class="icon">
+                                <i class="bi bi-heart-fill"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="table-container">
-                    <table>
-                        <caption>Sweet Candies</caption>
-                        <thead>
-                            <tr>
-                                <th scope="col">Name</th>
-                                <th scope="col">Expiration Date</th>
-                                <th scope="col">Amount</th>
-                                <th scope="col">Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td data-label="Name">Caramel</td>
-                                <td data-label="Expiration Date">04/01/2024</td>
-                                <td data-label="Amount">$1,190</td>
-                                <td data-label="Status">
-                                    <span class="badge bg-success">Active</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-label="Name">Chocolate</td>
-                                <td data-label="Expiration Date">04/01/2024</td>
-                                <td data-label="Amount">$1,190</td>
-                                <td data-label="Status">
-                                    <span class="badge bg-danger">Passive</span>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td data-label="Name">Gummies</td>
-                                <td data-label="Expiration Date">04/01/2024</td>
-                                <td data-label="Amount">$1,24</td>
-                                <td data-label="Status"><span class="badge bg-success">Active</span></td>
-                            </tr>
-                            <tr>
-                                <td data-label="Name">Lolly</td>
-                                <td data-label="Expiration Date">04/06/2026</td>
-                                <td data-label="Amount">$3,45</td>
-                                <td data-label="Status"><span class="badge bg-danger">Passive</span></td>
-                            </tr>
-                            <tr>
-                                <td data-label="Name">Cake</td>
-                                <td data-label="Expiration Date">12/06/2023</td>
-                                <td data-label="Amount">$5,80</td>
-                                <td data-label="Status"><span class="badge bg-success">Active</span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="container-item">
+                    <div class="card">
+                        <table>
+                            <caption>
+                                Sweet Candies
+                            </caption>
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Expiration Date</th>
+                                    <th scope="col">Amount</th>
+                                    <th scope="col">Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td data-label="Name">Caramel</td>
+                                    <td data-label="Expiration Date">04/01/2024</td>
+                                    <td data-label="Amount">$1,190</td>
+                                    <td data-label="Status">
+                                        <span class="badge bg-success">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Name">Chocolate</td>
+                                    <td data-label="Expiration Date">04/01/2024</td>
+                                    <td data-label="Amount">$1,190</td>
+                                    <td data-label="Status">
+                                        <span class="badge bg-danger">Passive</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Name">Gummies</td>
+                                    <td data-label="Expiration Date">04/01/2024</td>
+                                    <td data-label="Amount">$1,24</td>
+                                    <td data-label="Status">
+                                        <span class="badge bg-success">Active</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Name">Lolly</td>
+                                    <td data-label="Expiration Date">04/06/2026</td>
+                                    <td data-label="Amount">$3,45</td>
+                                    <td data-label="Status">
+                                        <span class="badge bg-danger">Passive</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td data-label="Name">Cake</td>
+                                    <td data-label="Expiration Date">12/06/2023</td>
+                                    <td data-label="Amount">$5,80</td>
+                                    <td data-label="Status">
+                                        <span class="badge bg-success">Active</span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="container-item">
+                    <div class="card">
+                        <div class="btn-wrapper">
+                            <button class="btn bg-primary" id="primary">Primary</button>
+                            <button class="btn bg-secondary" id="secondary">
+                                Secondary
+                            </button>
+                            <button class="btn bg-success" id="success">Success</button>
+                            <button class="btn bg-danger" id="danger">Danger</button>
+                            <button class="btn bg-warning" id="warning">Warning</button>
+                            <button class="btn bg-info" id="info">Info</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -4,6 +4,7 @@
   background-color: var(--light-color);
   overflow-y: auto;
   overflow-x: hidden;
+  transition: margin-left 1s;
 }
 
 #pageBody.active {
@@ -12,4 +13,8 @@
 
 .page-container {
   margin: var(--gap-lg);
+}
+
+.container-item {
+  margin: var(--gap-y-lg);
 }

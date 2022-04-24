@@ -1,4 +1,4 @@
-export class Counter {
+export default class Counter {
   constructor() {}
 
   static init(elements, duration) {
