@@ -1,5 +1,13 @@
 <img src="https://raw.githubusercontent.com/dijitalveysel/SweetDashboardTemplate/ec1266933180f61e883344a34408597268e652ee/design/logo/export/SVG/logo-web-1.svg" title="Sweet Dashboard" width="300"/>
 
+## Installation
+
+Run `npm install`
+
+## Start
+
+Run `npm start` navigate to `http://localhost:3000/`. The app will automatically reload if you change any o the source files. 
+
 ## MIT License
 
 Copyright (c) 2022 Veysel Demirel
