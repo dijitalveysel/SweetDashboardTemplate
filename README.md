@@ -9,7 +9,7 @@ Run `npm install`.
 Run `npm start` navigate to `http://localhost:3000/`.
 The app will automatically reload if you change any o the source files.
 
-## Directory and file structure
+## Directory And File Structure
 
 ```
 |-- app/
