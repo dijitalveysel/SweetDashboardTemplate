@@ -1,0 +1,30 @@
+{
+  "name": "sweet-dashboard-template",
+  "version": "1.0.0",
+  "description": "Dashboard frame with a sweet look.",
+  "main": "app/app.js",
+  "scripts": {
+    "start": "browser-sync start --server --files '*.css, *.html, *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dijitalveysel/SweetDashboardTemplate.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Illustrator",
+    "Figma",
+    "Dashboard"
+  ],
+  "author": "Veysel Demirel <hello@veysel.co>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dijitalveysel/SweetDashboardTemplate/issues"
+  },
+  "homepage": "https://github.com/dijitalveysel/SweetDashboardTemplate#readme",
+  "dependencies": {
+    "browser-sync": "^2.27.9"
+  }
+}
