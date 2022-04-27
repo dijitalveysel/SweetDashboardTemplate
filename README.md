@@ -21,7 +21,7 @@ The app will automatically reload if you change any o the source files.
         |-- main.css
     |-- images
     |-- sounds
-|-- design/
+|-- design
 |-- index.html
 ```
 
