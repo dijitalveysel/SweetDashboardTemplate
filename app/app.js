@@ -1,4 +1,4 @@
-import { VanillaTilt } from "./libs/vanilla-tilt/vanilla-tilt.js";
+import VanillaTilt from "../node_modules/vanilla-tilt/src/vanilla-tilt.js";
 import { TiltConfig } from "./constants/tilt-config.js";
 import Counter from "./libs/counter-animation/counter.js";
 import Toast from "./libs/toastr/Toastr.js";
