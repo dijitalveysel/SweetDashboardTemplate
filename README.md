@@ -9,7 +9,7 @@ Clone repository `git clone https://github.com/dijitalveysel/SweetDashboardTempl
 Run `npm start` navigate to `http://localhost:3000/`.
 The app will automatically reload if you change any o the source files.
 
-## File Structure
+## Directory & File Structure
 
 ```
 |-- app/
