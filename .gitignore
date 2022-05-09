@@ -1,2 +1,5 @@
+# compiled output
+/package-lock.json
+
 #dependencies
 /node_modules
