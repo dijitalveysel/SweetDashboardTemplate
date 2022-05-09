@@ -40,10 +40,6 @@ This is the folder where all additional files are located. (CSS • Images • S
 This is the folder all illustrator and figma files are located.
 
 
-> This project is a completely personal work and other open sources have been used.
-> 
-> This project is available for free.
-
 ## MIT License
 
 Copyright (c) 2022 Veysel Demirel
@@ -65,3 +61,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+> This project is a completely personal work and other open sources have been used.
+> 
+> This project is available for free.
