@@ -1,8 +1,8 @@
 <img src="https://raw.githubusercontent.com/dijitalveysel/SweetDashboardTemplate/ec1266933180f61e883344a34408597268e652ee/design/logo/export/SVG/logo-web-2.svg" title="Sweet Dashboard" width="320"/>
 
-## Installation
+## Clone & Installation Dependencies
 
-Run `npm install`.
+Clone repository `git clone https://github.com/dijitalveysel/SweetDashboardTemplate.git` and run `npm install`.
 
 ## Start
 
@@ -12,15 +12,15 @@ The app will automatically reload if you change any o the source files.
 ## File Structure
 
 ```
-|-- app
+|-- app/
     |-- constants
     |-- libs
     |-- app.js
-|-- assets
+|-- assets/
     |-- css
     |-- images
     |-- sounds
-|-- design
+|-- design/
     |-- candy
     |-- favicon
     |-- logo
