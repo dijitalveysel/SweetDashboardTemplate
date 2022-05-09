@@ -41,6 +41,7 @@ This is the folder all illustrator and figma files are located.
 
 
 > This project is a completely personal work and other open sources have been used.
+> 
 > This project is available for free.
 
 ## MIT License
