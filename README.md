@@ -4,7 +4,7 @@
 
 Clone repository `git clone https://github.com/dijitalveysel/SweetDashboardTemplate.git` and run `npm install`.
 
-## Start
+## Start Project
 
 Run `npm start` navigate to `http://localhost:3000/`.
 The app will automatically reload if you change any o the source files.
