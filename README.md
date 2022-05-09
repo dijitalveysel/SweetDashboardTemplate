@@ -18,10 +18,12 @@ The app will automatically reload if you change any o the source files.
     |-- app.js
 |-- assets/
     |-- css
-        |-- main.css
     |-- images
     |-- sounds
 |-- design
+    |-- candy
+    |-- favicon
+    |-- logo
 |-- index.html
 ```
 
