@@ -12,11 +12,11 @@ The app will automatically reload if you change any o the source files.
 ## File Structure
 
 ```
-|-- app/
+|-- app
     |-- constants
     |-- libs
     |-- app.js
-|-- assets/
+|-- assets
     |-- css
     |-- images
     |-- sounds
