@@ -27,6 +27,18 @@ The app will automatically reload if you change any o the source files.
 |-- index.html
 ```
 
+### App
+
+This is the folder where all JavaScript files are located. Also app.js is main script file.
+
+### Assets
+
+This is the folder where all additional files are located. (CSS • Images • Sounds)
+
+### Design
+
+This is the folder all illustrator and figma files are located.
+
 ## MIT License
 
 Copyright (c) 2022 Veysel Demirel
