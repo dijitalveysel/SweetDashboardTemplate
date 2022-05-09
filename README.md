@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/dijitalveysel/SweetDashboardTemplate/ec1266933180f61e883344a34408597268e652ee/design/logo/export/SVG/logo-web-2.svg" title="Sweet Dashboard" width="320"/>
 
-## Clone & Installation Dependencies
+## Clone & Install Dependencies
 
 Clone repository `git clone https://github.com/dijitalveysel/SweetDashboardTemplate.git` and run `npm install`.
 
