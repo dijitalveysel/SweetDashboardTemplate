@@ -7,7 +7,7 @@ table {
   table-layout: fixed;
 }
 
-table>caption {
+table > caption {
   font-size: var(--f-s-md);
   font-weight: 600;
   margin: var(--gap-b-md);
@@ -31,4 +31,16 @@ table th {
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 500;
+}
+
+.badge {
+  color: var(--white-color);
+  display: inline-block;
+  padding: 5.6px 10.4px;
+  font-size: var(--f-s-xs);
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: var(--rounded-pill);
 }
